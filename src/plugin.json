@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Oracle-Grafana",
+  "id": "trydma-oraclegrafana-datasource",
+  "metrics": true,
+  "backend": true,
+  "executable": "gpx_oracle_grafana",
+  "info": {
+    "description": "An oracle database datasource for grafana",
+    "author": {
+      "name": "trydma"
+    },
+    "keywords": ["datasource"],
+    "logos": {
+      "small": "img/logo-64.png",
+      "large": "img/logo-512.png"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=11.6.0",
+    "plugins": []
+  }
+}
